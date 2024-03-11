@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: monospace;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:powderblue;
+}
+
+.calc-body{
+    height: 80vh;
+    width: 70vw;
+    border-radius: 20px;
+    background: radial-gradient(rgba(255, 255, 255, 0.09),
+    rgba(255, 255, 255, 0.5));
+}
+
+.result{
+    position: absolute;
+    height: 80vh;
+    width: 20vw;
+    background:radial-gradient(rgba(0, 0, 0, 0.05), rgba(255, 255, 255, 0.5));
+    border-top-left-radius:20px ;
+    border-bottom-left-radius: 20px;
+}
+
+.result h1{
+    margin: 40px;
+    font-size: 45px;
+    text-align: center;
+    
+}
+
+.show{
+
+margin: 20px;
+}
+.show h2{
+    font-size: 30px;
+
+}
