@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    user-select: none;
     box-sizing: border-box;
     text-decoration: none;
     font-family: monospace;
@@ -15,8 +16,8 @@ body{
 }
 
 .calc-body{
-    height: 80vh;
-    width: 70vw;
+    height: 70vh;
+    width: 60vw;
     border-radius: 20px;
     background: radial-gradient(rgba(255, 255, 255, 0.09),
     rgba(255, 255, 255, 0.5));
@@ -24,7 +25,7 @@ body{
 
 .result{
     position: absolute;
-    height: 80vh;
+    height: 70vh;
     width: 20vw;
     background:radial-gradient(rgba(0, 0, 0, 0.05), rgba(255, 255, 255, 0.5));
     border-top-left-radius:20px ;
@@ -39,10 +40,67 @@ body{
 }
 
 .show{
-
-margin: 20px;
+    position: absolute;
+margin:30px 40px;
 }
+
 .show h2{
+    margin: 20px;
     font-size: 30px;
 
+}
+.main-inp{
+    position:absolute ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 55vh;
+    min-width: 60vw;
+    margin-left: 180px;
+}
+.inp{
+    text-align: center;
+
+}
+input{
+    background:rgba(0, 0, 0, 0.05);
+    margin: 15px;
+    height: 45px;
+    width: 300px;
+    font-size: 20px;
+    padding: 20px;
+    font-weight: 800px;
+    border: 1px solid rgba(0,0, 0,0.5);
+
+
+}
+button{
+    margin-top: 20px;
+    height: 45px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: rgba(0, 0, 0, 0.05);
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+
+
+
+}
+
+
+.result-show{
+    text-align: center;
+    height: 50px;
+    width: 60vw;
+    background-color: aqua;
+    margin-top: 491px;
+    border-bottom-left-radius:20px ;
+    border-bottom-right-radius:20px ;
+
+    
+}
+.result-show h1{
+    font-size: 40px;
 }
